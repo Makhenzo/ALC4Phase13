@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#06EAD3</color>
+
+    <color name="LightBlue">#3F51B5</color>
+    <color name="DarkBlue">#303F9F</color>
+
+    <color name="darkerGreen">#0c8c23</color>
+    <color name="brighterGreen">#3aa453</color>
+
+
+
+
+    <color name="fH">#4CAF50</color>
+    <color name="fL">#43A047</color>
+    <color name="fP">#E8F5E9</color>
+    <color name="fmt">#E0E0E0</color>
+    <color name="midGrey">#464646</color>
+    <color name="lightBlue">#FF19AAD6</color>
+    <color name="lime">#FF19D6BD</color>
+    <color name="gd">#4CAF50</color>
+    <color name="ld">#3a8f6d</color>
+    <color name="black"> #000000</color>
+    <color name="yellow">#efe523</color>
+    <color name="lightGrey">#616161</color>
+
+    <color name="lightRed">#ff010e</color>
+    <color name="darkRed">#F30404</color>
+    <color name="darkOrange">#f55702</color>
+
+    <color name="lightOrange">#ed7d41</color>
+    <color name="Green">#0C8715</color>
+    <color name="lightGreen">#07B313</color>
+
+    <color name="darkBlue">#303F9F</color>
+    <color name="white">#fafafa</color>
+    <color name="creamWhite">#E7E7E7</color>
+    <color name="darkGrey">#212121</color>
+    <color name="darkGreen">#030c04</color>
+
+
+
+</resources>
