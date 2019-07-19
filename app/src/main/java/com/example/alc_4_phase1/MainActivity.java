@@ -35,7 +35,7 @@ import com.google.gson.Gson;
         myself.setSlackUsername("@kennedymath");
 
          user  = gson.toJson(myself);
-         url = "https://www.pluralsight.com/"; //Used pluralsight link because https://andela.com/alc/ its not opening just shows a white blank page
+         url = "https://andela.com/alc/"; //This was challenging to me manage to fix it thank you
          profile.setOnClickListener(this);
          about.setOnClickListener(this);
     }

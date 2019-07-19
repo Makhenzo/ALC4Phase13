@@ -1,8 +1,10 @@
 package com.example.alc_4_phase1;
 
+import android.net.http.SslError;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.SslErrorHandler;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
@@ -27,10 +29,17 @@ public class AboutActivity extends AppCompatActivity {
         webView.setWebViewClient(new MyBrowser());
         webView.getSettings().setLoadsImagesAutomatically(true);
         webView.getSettings().setDomStorageEnabled(true);
-        webView.getSettings().setSafeBrowsingEnabled(true);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
         webView.loadUrl(url);
+
+        webView.setWebViewClient(new WebViewClient(){
+            @Override
+            public void onReceivedSslError(WebView view , SslErrorHandler handler , SslError error)
+            {
+                    handler.proceed();
+            }
+        });
     }
 
 
@@ -40,5 +49,7 @@ public class AboutActivity extends AppCompatActivity {
             view.loadUrl(url);
             return true;
         }
+
+
     }
 }
